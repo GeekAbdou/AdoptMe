@@ -1,11 +1,9 @@
-/* eslint-disable import/no-unresolved */
-
 import { useParams, useNavigate } from 'react-router-dom';
 import { useState, useContext } from 'react';
 import Loader from '../components/Loader';
 import usePet from '../hooks/usePet';
 import Carousel from '../components/carousel';
-import Modal from '../components/modal';
+import Modal from '../components/Modall';
 import AdoptedPetContext from '../context/AdoptedPetContext';
 
 const Details = () => {

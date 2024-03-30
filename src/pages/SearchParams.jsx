@@ -1,4 +1,3 @@
-/* eslint-disable import/no-unresolved */
 import React, { useState, useContext } from 'react';
 import useBreedList from '../hooks/useBreedList';
 import Results from '../components/Results';
