@@ -1,3 +1,5 @@
+/* eslint-disable import/no-unresolved */
+
 import { useParams, useNavigate } from 'react-router-dom';
 import { useState, useContext } from 'react';
 import Loader from '../components/Loader';

@@ -1,3 +1,5 @@
+/* eslint-disable import/no-unresolved */
+
 import Pet from './Pet';
 
 const Results = ({ pets }) => {

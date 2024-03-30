@@ -1,5 +1,6 @@
+/* eslint-disable import/no-unresolved */
 import React, { useState } from 'react';
-import ReactDOM, { createRoot } from 'react-dom/client';
+import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { ReactQueryDevtools } from 'react-query/devtools';
